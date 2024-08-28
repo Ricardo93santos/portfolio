@@ -1,14 +1,17 @@
 import React from "react";
 import Menu from "./Menu";
-import logo from "../../img/logo.png"
+import Footer from "./Footer"
+import './header.css';
+import logo from "./logo.png";
 
 export default function Header(){
   return(
-    <div className="header">
-      <a href="#home" className="logo">
-        <img src={logo} alt="Logo" />
+    <header className="header">
+      <a href="#home">
+        <img className="logo" src={logo} alt="Logo" />
       </a>
       <Menu />
-    </div>
+      <Footer />
+    </header>
   )
 }
