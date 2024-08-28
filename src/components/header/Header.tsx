@@ -1,17 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import Menu from "./Menu";
 import Footer from "./Footer"
 import './header.css';
+import slogan from "./slogan.png";
 import logo from "./logo.png";
 
-export default function Header(){
+const Header: React.FC = () => {
+  const [expanded, setExpanded] = useState(true);
+
   return(
-    <header className="header">
+    <header className={`header ${expanded ? 'expanded' : 'collapsed'}`}
+    onMouseEnter={() => setExpanded(true)}
+    onMouseLeave={() => setExpanded(false)}
+    >
       <a href="#home">
-        <img className="logo" src={logo} alt="Logo" />
+        <img className={`${expanded ? 'logo': 'slogan'}`} src={expanded ? slogan : logo} alt="Logo" />
       </a>
-      <Menu />
+      <Menu expanded={expanded}/>
       <Footer />
     </header>
   )
 }
+
+export default Header;

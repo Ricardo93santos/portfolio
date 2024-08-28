@@ -1,16 +1,26 @@
 .header {
   grid-area: header;
   background-color: #b8babc;
-  width: 150px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding: 20px 0;
+  transition: width 0.7s ease-in-out;
+}
+.header.collapsed {
+  width: 60px;
 }
 
-.logo {
+.header.expanded {
+  width: 200px;
+}
+.slogan{
+  width: 60px;
+}
+
+.logo{
   width: 120px;
   margin-bottom: 20px;
 }
@@ -19,6 +29,4 @@ footer {
   width: 100%;
   text-align: center;
   padding: 10px 0;
-  background-color: #343a40;
-  color: #ffffff;
 }
