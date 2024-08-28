@@ -1,10 +1,13 @@
 import React from "react";
 import Menu from "./Menu";
+import logo from "../../img/logo.png"
 
 export default function Header(){
   return(
     <div>
-      <h1>Sou o Header! e Tenho um menu:</h1>
+      <a href="#home" className="logo">
+        <img src={logo} alt="Logo" />
+      </a>
       <Menu />
     </div>
   )
