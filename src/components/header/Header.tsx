@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Menu from "./Menu";
 import Footer from "./Footer"
-import './header.css';
+import './Header.css';
 import slogan from "./slogan.png";
 import logo from "./logo.png";
 
@@ -17,7 +17,7 @@ const Header: React.FC = () => {
         <img className={`${expanded ? 'logo': 'slogan'}`} src={expanded ? slogan : logo} alt="Logo" />
       </a>
       <Menu expanded={expanded}/>
-      <Footer />
+      <Footer expanded={expanded}/>
     </header>
   )
 }

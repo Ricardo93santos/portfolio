@@ -1,0 +1,37 @@
+/* Footer.css */
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.FooterExpanded ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterExpanded li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.FooterCollapsed li {
+  display: block;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: font-size 0.7s ease-in-out;
+}
+
+.FooterExpanded a {
+  font-size: 24px;
+}
