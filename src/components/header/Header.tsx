@@ -6,7 +6,7 @@ import slogan from "./slogan.png";
 import logo from "./logo.png";
 
 const Header: React.FC = () => {
-  const [expanded, setExpanded] = useState(true);
+  const [expanded, setExpanded] = useState(false);
 
   return(
     <header className={`header ${expanded ? 'expanded' : 'collapsed'}`}
