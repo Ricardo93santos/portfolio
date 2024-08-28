@@ -4,7 +4,7 @@ import logo from "../../img/logo.png"
 
 export default function Header(){
   return(
-    <div>
+    <div className="header">
       <a href="#home" className="logo">
         <img src={logo} alt="Logo" />
       </a>
