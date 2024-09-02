@@ -2,7 +2,7 @@
   display: grid;
   grid-template-areas: 
     "header main";
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 60px 1fr;
   grid-template-rows: auto 1fr auto;
   height: 100vh;
 }
