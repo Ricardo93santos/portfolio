@@ -8,7 +8,6 @@ import Sobre from "./Sobre";
 export default function Main(){
   return(
     <main>
-      <h1>Sou o main e vou conter as sections Home, sobre, projetos e contatos!</h1>
       <Home />
       <Sobre />
       <Projetos />

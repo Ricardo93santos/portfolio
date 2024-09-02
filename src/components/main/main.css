@@ -7,3 +7,13 @@ main {
   justify-content: center;
   padding: 20px;
 }
+.contener{
+  align-items: center;
+  display: flex;
+  grid-area: main;
+  height: 100vh;
+  justify-content: center;
+}
+.hidden{
+  display: none;
+}
