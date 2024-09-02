@@ -1,5 +1,5 @@
 import React from "react";
-import './Main.css';
+import './main.css';
 import Contato from "./Contato";
 import Home from "./Home";
 import Projetos from "./Projetos";
