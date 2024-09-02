@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Menu from "./Menu";
 import Footer from "./Footer"
-import './header.css';
+import './Header.css';
 import slogan from "./slogan.png";
 import logo from "./logo.png";
 
