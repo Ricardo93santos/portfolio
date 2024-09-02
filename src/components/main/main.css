@@ -1,6 +1,9 @@
 main {
-  grid-area: main;
+  align-items: center;
   background-color: #ffffff;
-  padding: 20px;
+  display: flex;
+  grid-area: main;
   height: 100vh;
+  justify-content: center;
+  padding: 20px;
 }
