@@ -5,7 +5,7 @@ import Home from "./Home";
 import Projetos from "./Projetos";
 import Sobre from "./Sobre";
 
-export default function Main(){
+ const Main: React.FC = () => {
   return(
     <main>
       <Home />
@@ -15,3 +15,5 @@ export default function Main(){
     </main>
   )
 }
+
+export default Main
