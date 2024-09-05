@@ -6,3 +6,8 @@
   grid-template-rows: auto 1fr auto;
   height: 100vh;
 }
+@media (max-width: 600px) {
+  .app_container {
+    grid-template-columns: 40px 1fr;
+  }
+}

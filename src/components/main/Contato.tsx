@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function Contato(){
+const Contato: React.FC = () => {
   return(
-    <div className="contener hidden">
+    <div className="container hidden">
       <h1>Sou a section Contato e vou ter um formulário!</h1>
     </div>
   )
 }
+
+export default Contato;

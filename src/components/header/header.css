@@ -1,6 +1,6 @@
 .header {
   align-items: center;
-  background-color: #b8babc;
+  background-color: var(--ternary-color);
   display: flex;
   flex-direction: column;
   grid-area: header;
@@ -17,12 +17,39 @@
 .header.expanded {
   width: 200px;
 }
-.slogan{
+.slogan {
   width: 60px;
 }
 
-.logo{
+.logo {
   width: 130px;
   margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .header.collapsed {
+    width: 60px;
+  }
+  
+  .header.expanded {
+    width: 150px;
+  }
+  .logo {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header.collapsed {
+    width: 40px;
+  }
+  
+  .header.expanded {
+    width: 150px;
+  }
+  .logo {
+    width: 110px;
+    margin-bottom: 10px;
+  }
+}

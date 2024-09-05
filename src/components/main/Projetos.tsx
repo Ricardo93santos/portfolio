@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function Projetos(){
+const Projetos: React.FC = () => {
   return(
-    <div className="contener hidden">
+    <div className="container hidden">
       <h1>Sou a section Projeto e vou ter vários projetos!</h1>
     </div>
   )
 }
+
+export default Projetos;

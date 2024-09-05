@@ -6,11 +6,12 @@
 }
 
 .menu li {
-  margin: 10px 0; /* Espaçamento entre os itens */
+  margin: 10px 0;
 }
 
 .menu a {
-  color: #343a40; /* Cor da letra */
+  color: var(--primary-color);
+  
   text-decoration: none;
   font-size: 18px;
   display: block;
@@ -22,4 +23,10 @@
 
 .menu a svg {
   margin-right: 10px;
+}
+
+@media (max-width: 700px) {
+  .menu a {
+    font-size: 16px;
+  }
 }

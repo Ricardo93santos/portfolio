@@ -5,7 +5,7 @@ import Home from "./Home";
 import Projetos from "./Projetos";
 import Sobre from "./Sobre";
 
- const Main: React.FC = () => {
+const Main: React.FC = () => {
   return(
     <main>
       <Home />
@@ -16,4 +16,4 @@ import Sobre from "./Sobre";
   )
 }
 
-export default Main
+export default Main;

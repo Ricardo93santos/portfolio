@@ -3,8 +3,8 @@ footer {
   width: 100%;
   text-align: center;
   padding: 10px 0;
-  background-color: #343a40;
-  color: #ffffff;
+  background-color: var(--primary-color);
+  color: var(--ternary-color);
 }
 
 .FooterExpanded ul {
@@ -26,7 +26,7 @@ footer {
 }
 
 footer a {
-  color: #ffffff;
+  color: var(--ternary-color);
   text-decoration: none;
   font-size: 18px;
   transition: font-size 0.7s ease-in-out;
@@ -34,4 +34,10 @@ footer a {
 
 .FooterExpanded a {
   font-size: 24px;
+}
+
+@media (max-width: 700px) {
+  .FooterExpanded a {
+    font-size: 18px;
+  }
 }
