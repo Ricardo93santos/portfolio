@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "./Slider"
+import Slider from "./Slider"
 import './About.css';
 
 const About: React.FC = () => {
