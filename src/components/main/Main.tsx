@@ -1,17 +1,17 @@
 import React from "react";
 import './main.css';
-import Contato from "./Contato";
+import Contact from "./Contact";
 import Home from "./Home";
-import Projetos from "./Projetos";
-import Sobre from "./Sobre";
+import Projects from "./Projects";
+import About from "./About";
 
 const Main: React.FC = () => {
   return(
     <main>
       <Home />
-      <Sobre />
-      <Projetos />
-      <Contato />
+      <About />
+      <Projects />
+      <Contact />
     </main>
   )
 }

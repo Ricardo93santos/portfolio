@@ -1,6 +1,6 @@
 import React from "react";
 
-const Projetos: React.FC = () => {
+const Projects: React.FC = () => {
   return(
     <div className="container hidden">
       <h1>Sou a section Projeto e vou ter vários projetos!</h1>
@@ -8,4 +8,4 @@ const Projetos: React.FC = () => {
   )
 }
 
-export default Projetos;
+export default Projects;

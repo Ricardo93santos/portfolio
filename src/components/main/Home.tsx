@@ -3,7 +3,7 @@ import './Home.css';
 
 const Home: React.FC = () => {
   return (
-    <section className="container">
+    <section className="container hidden">
       <div className="home_text">
         <h1>Bem-vindo a um novo universo digital!</h1>
         <h2>Eu sou Ricardo Santos</h2>
@@ -14,7 +14,7 @@ const Home: React.FC = () => {
             <button className="whatsappButton" aria-label="Fale Conosco no WhatsApp">Fale Conosco no WhatsApp</button>
           </a>
           <p>ou</p>
-          <a href="/contato">
+          <a href="./contact">
             <button className="contactButton" aria-label="Preencha o Formulário de Contato">Preencha o Formulário</button>
           </a>
         </div>

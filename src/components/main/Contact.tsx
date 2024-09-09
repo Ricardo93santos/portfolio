@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contato: React.FC = () => {
+const Contact: React.FC = () => {
   return(
     <div className="container hidden">
       <h1>Sou a section Contato e vou ter um formulário!</h1>
@@ -8,4 +8,4 @@ const Contato: React.FC = () => {
   )
 }
 
-export default Contato;
+export default Contact;
