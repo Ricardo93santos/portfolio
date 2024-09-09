@@ -1,5 +1,6 @@
 .about{
   flex-direction: column;
+  gap: 20px;
 }
 
 .about_text {
@@ -8,45 +9,8 @@
   width: 250px;
 }
 
-.technologies ul {
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  width: 250px;
-  overflow: hidden;
-}
-
-.technologies li {
-  margin: 10px; 
-  width: max-content;
-  animation: slide 1s linear infinite;
-}
-
-.technologies li img {
-  width: 40px;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(100%);
-  }
-
-  100% {
-    transform: translateX(-50px);
-  }
-}
-
 @media (min-width: 768px) {
   .about_text {
     width: 700px;
-  }
-  .technologies li img {
-    width: 50px;
-  }
-}
-
-@media (min-width: 425px) {
-  .technologies ul {
-    width: 300px;
   }
 }

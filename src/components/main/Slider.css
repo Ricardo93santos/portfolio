@@ -1,0 +1,42 @@
+.containerSlider{
+  height: 60px;
+  width: 100%;
+  
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.sliderlItens {
+  animation: autoSlide 10s linear infinite;
+  height: 50px;
+  left: 100%;
+  max-width: 60px;
+  position: absolute;
+  width: 100%;
+}
+
+.sliderlItens img {
+  width: 100%;
+}
+
+@keyframes autoSlide {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: -50px;
+  }
+}
+
+@media (max-width: 768px) {
+  
+.sliderlItens img {
+  width: 40px;
+}
+}
