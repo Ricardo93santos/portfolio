@@ -1,19 +1,19 @@
 /* Footer.css */
 footer {
-  width: 100%;
-  text-align: center;
-  padding: 10px 0;
   background-color: var(--primary-color);
   color: var(--ternary-color);
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
 }
 
 .FooterExpanded ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .FooterExpanded li {
@@ -27,8 +27,8 @@ footer {
 
 footer a {
   color: var(--ternary-color);
-  text-decoration: none;
   font-size: 18px;
+  text-decoration: none;
   transition: font-size 0.7s ease-in-out;
 }
 

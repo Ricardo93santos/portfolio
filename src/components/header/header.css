@@ -26,11 +26,7 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-  .header.collapsed {
-    width: 60px;
-  }
-  
+@media (max-width: 768px) {  
   .header.expanded {
     width: 150px;
   }
@@ -40,11 +36,7 @@
   }
 }
 
-@media (max-width: 600px) {
-  .header.collapsed {
-    width: 40px;
-  }
-  
+@media (max-width: 600px) { 
   .header.expanded {
     width: 150px;
   }

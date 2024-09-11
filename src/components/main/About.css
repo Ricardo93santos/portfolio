@@ -6,7 +6,7 @@
 .about_text {
   text-align: center;
   margin-bottom: 20px;
-  width: 250px;
+  width: 240px;
 }
 
 @media (min-width: 768px) {

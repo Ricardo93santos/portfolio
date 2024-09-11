@@ -14,9 +14,6 @@ main {
   justify-content: center;
   background: var(--gradient-color);
 }
-.hidden {
-  display: none;
-}
 
 @media (max-width: 600px) {
   .container {
