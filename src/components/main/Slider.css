@@ -1,7 +1,10 @@
 .containerSlider{
   height: 60px;
   width: 100%;
-  
+  mask-image: linear-gradient(to left,
+  transparent,
+  #000 5% 5%,
+  transparent);
   overflow: hidden;
 }
 
@@ -13,6 +16,8 @@
 
 .sliderlItens {
   animation: autoSlide 10s linear infinite;
+  animation-delay: calc(10 / var(--quantity) * var(--delay));
+  cursor: pointer;
   height: 50px;
   left: 100%;
   max-width: 60px;
@@ -23,6 +28,16 @@
 .sliderlItens img {
   width: 100%;
 }
+
+.containerSlider:hover .sliderlItens{
+  animation-play-state: paused;
+  filter: grayscale(1);
+}
+
+.containerSlider .sliderlItens:hover {
+  filter: grayscale(0);
+}
+
 
 @keyframes autoSlide {
   from {
