@@ -3,7 +3,7 @@ import './Home.css';
 
 const Home: React.FC = () => {
   return (
-    <section className="container hidden">
+    <section className="container">
       <div className="home_text">
         <h1>Bem-vindo a um novo universo digital!</h1>
         <h2>Eu sou Ricardo Santos</h2>

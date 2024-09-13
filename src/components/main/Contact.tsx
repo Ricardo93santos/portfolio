@@ -1,9 +1,11 @@
 import React from "react";
+import Forms from "./form/Forms";
 
 const Contact: React.FC = () => {
   return(
-    <div className="container hidden">
-      <h1>Sou a section Contato e vou ter um formulário!</h1>
+    <div >
+      <h2>Entra em Contato</h2>
+      <Forms />
     </div>
   )
 }
