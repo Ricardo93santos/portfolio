@@ -12,7 +12,7 @@ const Home: React.FC = () => {
           <a href="https://wa.me/+5577933016666?text=Olá%20Ricardo,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!%20Vamos%20criar%20um%20site?" target="_blank" rel="noopener noreferrer">
             <button className="whatsappButton" aria-label="Me chama no WhatsApp">Me chama no WhatsApp</button>
           </a>
-          <a href="./contact">
+          <a href="/contact">
             <button className="contactButton" aria-label="Preencha o Formulário">Preencha o Formulário</button>
           </a>
         </div>
