@@ -14,8 +14,8 @@ const Forms: React.FC = () => {
       <input type="email" name="email" placeholder="E-mail@email.com" />
       <label htmlFor="phone">Telefone ou WhatsApp</label>
       <input type="tel" name="phone" placeholder="(xx)9xxxx-xxxx" />
-      <label htmlFor="mesage">Deixe sua mensagem</label>
-      <textarea name="mesage" placeholder="Fique à vontade"></textarea>
+      <label htmlFor="message">Deixe sua mensagem</label>
+      <textarea name="message" placeholder="Fique à vontade"></textarea>
       <button type="submit">Enviar</button>
     </form>
   )
