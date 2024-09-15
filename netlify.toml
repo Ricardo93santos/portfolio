@@ -2,9 +2,9 @@
   command = "npm run build"
   publish = "build"
 
-[[plugins]]
-  package = "@netlify/plugin-inline-functions"
-  
+[functions]
+  directory = "netlify/functions"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
