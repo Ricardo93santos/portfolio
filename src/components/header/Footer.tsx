@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from '@iconify-icon/react';
-import './Footer.css';
+import '../../style/Footer.css';
 
 interface FooterProps{
   expanded: boolean;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Menu from "./Menu";
 import Footer from "./Footer";
-import './header.css';
+import "../../style/header.css";
 import slogan from "./slogan.png";
 import logo from "./logo.png";
 

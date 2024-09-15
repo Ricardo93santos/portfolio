@@ -1,0 +1,45 @@
+.containerForms {
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  backdrop-filter: blur(10px) saturate(180%);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 20px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  background-color: transparent;
+  color: var(--ternary-color);
+  width: 100%;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--ternary-color);
+}
+
+label {
+  color: var(--ternary-color);
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: var(--secondary-color);
+  color: var(--ternary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: var(--primary-color);
+}

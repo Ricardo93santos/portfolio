@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Menu.css";
+import "../../style/Menu.css";
 import { Icon } from '@iconify-icon/react';
 
 interface MenuProps {

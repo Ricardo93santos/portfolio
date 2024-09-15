@@ -1,6 +1,6 @@
 import React from "react";
 import { technologies } from "./DadaTechnologies";
-import "./Slider.css";
+import "../../style/Slider.css";
 
 const Slider: React.FC = () => {
 

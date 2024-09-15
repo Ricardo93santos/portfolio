@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "./Slider"
-import './About.css';
+import "../../style/About.css";
 
 const About: React.FC = () => {
   return (
