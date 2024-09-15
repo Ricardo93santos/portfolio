@@ -11,7 +11,7 @@ type InputProps = {
 
 const InputComponent: React.FC<InputProps> = ({ id, text, type, value, onChange }) => {
   return(
-    <input id={id} type={type} value={value} onChange={onChange} placeholder={text} />
+    <input id={id} type={type} value={value} onChange={onChange} placeholder={text} required minLength={11} />
   )
 }
 

@@ -8,6 +8,7 @@ const Forms: React.FC = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
+  const [mensage, setmensage] = useState("");
 
   const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setName(e.target.value);
@@ -18,10 +19,13 @@ const Forms: React.FC = () => {
   const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setPhone(e.target.value);
   }
+  const handleMensageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setmensage(e.target.value)
+  }
+  
   return (
-    <form className="containerForms" action="contact" method="post" data-netlify="true" onSubmit={e => {
-      e.preventDefault();
-    }}>
+    <form className="containerForms" action="contact" method="post" data-netlify="true">
+      <input type="hidden" name="contactForm" value="contact" />
       <LabelComponent htmlFor="input1" text="Nome completo" />
       <InputComponent id="input1" type="text" text="Nome e Sobremone" value={name} onChange={handleNameChange}/>
       <LabelComponent htmlFor="input2" text="E-mail" />
@@ -29,7 +33,7 @@ const Forms: React.FC = () => {
       <LabelComponent htmlFor="input3" text="WhatsApp" />
       <InputComponent id="input3" type="tel" text="(xxx)9xxxx-xxxx" value={phone} onChange={handlePhoneChange}/>
       <LabelComponent htmlFor="input4" text="Deixe sua mensagem" />
-      <InputComponent id="input4" type="text" text="Vamos criar um site juntos!" value={phone} onChange={handlePhoneChange}/>
+      <InputComponent id="input4" type="text" text="Vamos criar um site juntos!" value={mensage} onChange={handleMensageChange}/>
       <ButtonComponent type="submit" text="Enviar" />
     </form>
   )
