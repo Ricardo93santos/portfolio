@@ -47,13 +47,13 @@ const Forms: React.FC = () => {
       <input type="hidden" name="form-name" value="contact" />
       <input type="hidden" name="bot-field" />
       <LabelComponent htmlFor="input1" text="Nome completo" />
-      <InputComponent id="input1" type="text" text="Nome e Sobrenome" value={name} onChange={handleNameChange} />
+      <InputComponent id="input1" type="text" text="Nome e Sobrenome" value={name} onChange={handleNameChange} autocomplete="name" />
       <LabelComponent htmlFor="input2" text="E-mail" />
-      <InputComponent id="input2" type="email" text="seuemail@email.com" value={email} onChange={handleEmailChange} />
+      <InputComponent id="input2" type="email" text="seuemail@email.com" value={email} onChange={handleEmailChange} autocomplete="email" />
       <LabelComponent htmlFor="input3" text="WhatsApp" />
-      <InputComponent id="input3" type="tel" text="(xxx)9xxxx-xxxx" value={phone} onChange={handlePhoneChange} />
+      <InputComponent id="input3" type="tel" text="(xxx)9xxxx-xxxx" value={phone} onChange={handlePhoneChange} autocomplete="tel" />
       <LabelComponent htmlFor="input4" text="Deixe sua mensagem" />
-      <InputComponent id="input4" type="text" text="Vamos criar um site juntos!" value={message} onChange={handleMessageChange} />
+      <InputComponent id="input4" type="text" text="Vamos criar um site juntos!" value={message} onChange={handleMessageChange} autocomplete="off" />
       <ButtonComponent type="submit" text="Enviar" />
     </form>
   );
