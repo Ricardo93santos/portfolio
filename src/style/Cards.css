@@ -8,12 +8,20 @@
 }
 
 .card {
+  border: 2px solid var(--ternary-color);
+  border-radius: 6%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
   margin: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  border: 3px solid var(--secondary-color);
+  border-radius: 7%;
 }
 
 @media (min-width:425px) {
