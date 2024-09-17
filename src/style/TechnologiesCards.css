@@ -1,0 +1,16 @@
+.technologiesCards {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.technologiesCards img {
+  width: 40px;
+  margin: 10px auto;
+  transition: all 0.6s linear;
+}
+
+.technologiesCards img:hover {
+  scale: 1.2;
+}

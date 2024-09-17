@@ -1,5 +1,5 @@
 import React from "react";
-import { technologies } from "./DadaTechnologies";
+import { technologies } from "./Dada";
 import "../../style/Slider.css";
 
 const Slider: React.FC = () => {

@@ -1,9 +1,10 @@
 import React from "react";
+import "../../style/LinksProjects.css";
 
-const LinksProjects: React.FC = () => {
+const LinksProjects: React.FC<{link: string}> = ({ link }) => {
   return (
-    <div>
-     
+    <div className="linkProject">
+      {link ? <a href={link} target="_blank" rel="noopener noreferrer">Visite o Projeto</a> : "Em desenvolvimento"}
     </div>
   )
 }

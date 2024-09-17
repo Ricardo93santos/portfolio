@@ -1,3 +1,10 @@
+export type Project = {
+  src: string;
+  alt: string;
+  link: string;
+  technologies: string[];
+}
+
 export const technologies = [
   { src: "https://img.icons8.com/?size=100&id=108784&format=png&color=000000", alt: "JavaScript" },
   { src: "https://img.icons8.com/?size=100&id=t4YbEbA834uH&format=png&color=000000", alt: "React" },
@@ -10,3 +17,30 @@ export const technologies = [
   { src: "https://img.icons8.com/?size=100&id=UGYn5TapNioV&format=png&color=000000", alt: "PHP" },
   { src: "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000", alt: "MySQL" },
 ]; 
+
+export const projects: Project[] = [
+  {
+    src: "https://i.postimg.cc/LsRD55qd/Captura-de-tela-2024-09-17-152849.png",
+    alt: "Site Studio WorkArt",
+    link: "https://studioworkart.netlify.app/",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
+  },
+  {
+    src: "https://i.postimg.cc/4dyjmKDL/Em-desenvolvimento.png",
+    alt: "Projeto em desenvolvimento",
+    link: "",
+    technologies: ["HTML5", "CSS3", "TypeScript", "React"],
+  },
+  {
+    src: "https://i.postimg.cc/4dyjmKDL/Em-desenvolvimento.png",
+    alt: "Projeto em desenvolvimento",
+    link: "",
+    technologies: ["HTML5", "CSS3", "TypeScript", "React"],
+  },
+  {
+    src: "https://i.postimg.cc/4dyjmKDL/Em-desenvolvimento.png",
+    alt: "Projeto em desenvolvimento",
+    link: "",
+    technologies: ["HTML5", "CSS3", "TypeScript", "React"],
+  }
+];

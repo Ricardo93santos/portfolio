@@ -1,0 +1,7 @@
+.linkProject a{
+  color: var(--ternary-color);
+}
+
+.linkProject a:hover{
+  color: var(--secondary-color);
+}
