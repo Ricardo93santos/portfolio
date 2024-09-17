@@ -1,6 +1,7 @@
 .containerCards {
   overflow: hidden;
   width: 100%;
+  max-width: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,4 +14,22 @@
   align-items: center;
   gap: 10px;
   margin: 10px;
+}
+
+@media (min-width:425px) {
+  .containerCards {
+    max-width: 300px;
+  }
+}
+
+@media (min-width:768px) {
+  .containerCards {
+    max-width: 700px;
+  }
+}
+
+@media (min-width:1024px) {
+  .containerCards {
+    max-width: 900px;
+  }
 }
