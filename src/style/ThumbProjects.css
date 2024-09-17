@@ -1,7 +1,7 @@
 .thumbContainer {
   width: 300px;
   overflow: hidden;
-  cursor: pointer;
+  cursor: grab;
   border-radius: 8%;
 }
 

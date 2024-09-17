@@ -1,5 +1,9 @@
-.containerCards {
+.carouselCards {
+  cursor: grab;
   overflow: hidden;
+}
+
+.containerCards {
   width: 100%;
   max-width: 250px;
   display: flex;
