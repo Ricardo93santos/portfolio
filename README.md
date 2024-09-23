@@ -6,9 +6,9 @@ Bem-vindo ao meu portfólio! Este repositório contém alguns dos meus projetos 
 
 Olá! Eu sou Ricardo Santos, um desenvolvedor web apaixonado por criar soluções inovadoras e eficientes. Tenho experiência em diversas tecnologias e estou sempre em busca de novos desafios e aprendizados.
 
-## Tecnologias Utilizadas
+## Tecnologias
 
-Aqui estão algumas das tecnologias e ferramentas que utilizo em meus projetos:
+Aqui estão algumas das tecnologias e ferramentas que tenho conhecimento e estou estudando e que utilizo em meus projetos:
 
 - **HTML5**
 - **CSS3**
