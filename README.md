@@ -22,17 +22,7 @@ Aqui estão algumas das tecnologias e ferramentas que tenho conhecimento e estou
 
 ## Projetos
 
-### Projeto 1: [Nome do Projeto]
-
-**Descrição:** Uma breve descrição do projeto, seus objetivos e funcionalidades principais.
-
-**Tecnologias:** Lista das tecnologias utilizadas no projeto.
-
-**Link:** Link para o projeto
-
-> **Dica:** Para abrir o link em uma nova aba, clique com o botão direito do mouse e selecione "Abrir link em uma nova aba".
-
-### Projeto 2: Landing Page para Empresa de Móveis Planejados
+### Projeto 1: Landing Page para Empresa de Móveis Planejados
 
 **Descrição:** Desenvolvi uma landing page moderna e responsiva para uma empresa de móveis planejados. O objetivo principal do site é apresentar os serviços e produtos da empresa de forma atraente e intuitiva, facilitando a navegação dos usuários e incentivando o contato para orçamentos e consultas.
 
@@ -50,6 +40,17 @@ Aqui estão algumas das tecnologias e ferramentas que tenho conhecimento e estou
 **Link:** <a href="https://studioworkart.netlify.app/">StudioWorkArt</a>
 
 > **Dica:** Para abrir o link em uma nova aba, clique com o botão direito do mouse e selecione "Abrir link em uma nova aba".
+
+### Projeto 2: [Nome do Projeto]
+
+**Descrição:** Uma breve descrição do projeto, seus objetivos e funcionalidades principais.
+
+**Tecnologias:** Lista das tecnologias utilizadas no projeto.
+
+**Link:** Link para o projeto
+
+> **Dica:** Para abrir o link em uma nova aba, clique com o botão direito do mouse e selecione "Abrir link em uma nova aba".
+
 
 ## Contato
 
