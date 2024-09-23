@@ -41,13 +41,21 @@ Aqui estão algumas das tecnologias e ferramentas que tenho conhecimento e estou
 
 > **Dica:** Para abrir o link em uma nova aba, clique com o botão direito do mouse e selecione "Abrir link em uma nova aba".
 
-### Projeto 2: [Nome do Projeto]
+### Projeto 2: Web App Conversor e Calculadora
 
-**Descrição:** Uma breve descrição do projeto, seus objetivos e funcionalidades principais.
+**Descrição:** Um web app com design moderno que inclui uma calculadora de IMC e conversores de moedas, temperatura e distâncias. O objetivo principal é facilitar o cálculo do IMC e a conversão das principais moedas usadas no Brasil (Dólar, Euro e Real), além de converter temperaturas e distâncias.
 
-**Tecnologias:** Lista das tecnologias utilizadas no projeto.
+**Funcionalidades principais:**
+- **Design Responsivo:** A página se adapta a diferentes tamanhos de tela, proporcionando uma experiência de usuário consistente em dispositivos móveis, tablets e desktops.
+- **Designer Moderno:** Utiliza glassmorphism e uma paleta de cores que transmite modernidade e tecnologia.
+- **Algoritmos Rápidos:** Algoritmos rápidos garantem cálculos fluidos e tempos de resposta rápidos.
 
-**Link:** Link para o projeto
+**Tecnologias:** 
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+
+**Link:**  <a href="https://conversorecalculadora.netlify.app/">Conversor e Calculadora</a>
 
 > **Dica:** Para abrir o link em uma nova aba, clique com o botão direito do mouse e selecione "Abrir link em uma nova aba".
 
