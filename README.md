@@ -1,6 +1,6 @@
 # Meu Portfólio
 
-Bem-vindo ao meu portfólio! Este repositório contém alguns dos meus projetos e trabalhos que demonstram minhas habilidades e experiências na área de desenvolvimento web.
+Bem-vindo ao meu portfólio! Este repositório contém meu portfólio apresentando alguns dos meus projetos e trabalhos que demonstram minhas habilidades e experiências na área de desenvolvimento web. As tecnologias usadas para o desenvolvimento desse portfólio foram **HTML5**, **CSS3**, **TypeScript** e **ReactJS**.
 
 ## Sobre Mim
 
@@ -13,6 +13,7 @@ Aqui estão algumas das tecnologias e ferramentas que tenho conhecimento e estou
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6+)**
+- **TypeScript**
 - **React**
 - **Node.js**
 - **Remix**
