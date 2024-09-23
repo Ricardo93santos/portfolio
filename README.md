@@ -52,7 +52,7 @@ Aqui estão algumas das tecnologias e ferramentas que utilizo em meus projetos:
 ## Contato
 
 Se você quiser saber mais sobre mim ou falar sobre oportunidades de trabalho, entre em contato:
-- **Portfólio:** <a hred="https://santosdev.netlify.app/">SantosDev</a>
+- **Portfólio:** <a href="https://santosdev.netlify.app/">SantosDev</a>
 - **Email:** ricardossantos.dev@gmail.com
 -  **WhatsApp:** <a href="https://wa.me/5577933016666">+55(77)933016666</a>
 - **LinkedIn:** https://www.linkedin.com/in/ricardo-santos-997429145/
