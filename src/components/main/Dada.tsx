@@ -20,16 +20,16 @@ export const technologies = [
 
 export const projects: Project[] = [
   {
+    src: "https://i.postimg.cc/gcK5Z4z5/Captura-de-tela-2024-09-23-144835.png",
+    alt: "Site Conversor e Calculadora",
+    link: "https://conversorecalculadora.netlify.app/",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
+  },
+  {
     src: "https://i.postimg.cc/LsRD55qd/Captura-de-tela-2024-09-17-152849.png",
     alt: "Site Studio WorkArt",
     link: "https://studioworkart.netlify.app/",
     technologies: ["HTML5", "CSS3", "JavaScript"],
-  },
-  {
-    src: "https://i.postimg.cc/4dyjmKDL/Em-desenvolvimento.png",
-    alt: "Projeto em desenvolvimento",
-    link: "",
-    technologies: ["HTML5", "CSS3", "TypeScript", "React"],
   },
   {
     src: "https://i.postimg.cc/4dyjmKDL/Em-desenvolvimento.png",
