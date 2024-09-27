@@ -10,7 +10,7 @@ const Home: React.FC = () => {
         <h2>Eu sou Ricardo Santos</h2>
         <p>Transformo ideias em interfaces intuitivas e atraentes.</p>
         <div className="home_contact">
-          <Link to="https://wa.me/+5577933016666?text=Olá%20Ricardo,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!%20Vamos%20criar%20um%20site?" target="_blank" rel="noopener noreferrer">
+          <Link to="https://wa.me/+5577933016666?text=Olá%20Ricardo,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!%20Vamos%20conversar?" target="_blank" rel="noopener noreferrer">
             <button className="whatsappButton" aria-label="Me chama no WhatsApp">Me chama no WhatsApp</button>
           </Link>
           <Link to="/contact">
