@@ -14,8 +14,6 @@ export const technologies = [
   { src: "https://img.icons8.com/?size=100&id=21278&format=png&color=000000", alt: "CSS3" },
   { src: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000", alt: "Node.JS" },
   { src: "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000", alt: "TailwindCSS" },
-  { src: "https://img.icons8.com/?size=100&id=UGYn5TapNioV&format=png&color=000000", alt: "PHP" },
-  { src: "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000", alt: "MySQL" },
 ]; 
 
 export const projects: Project[] = [
