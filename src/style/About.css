@@ -1,6 +1,5 @@
 .about{
   flex-direction: column;
-  gap: 20px;
 }
 
 .about_text {
@@ -15,5 +14,8 @@
 @media (min-width: 768px) {
   .about_text {
     width: 700px;
+  }
+  .about{
+    gap: 25px;
   }
 }
