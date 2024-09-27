@@ -11,6 +11,10 @@
   padding: 5px 0;
 }
 
+.WaLink {
+  color: #25D366;
+}
+
 @media (min-width: 768px) {
   .about_text {
     width: 700px;
