@@ -1,8 +1,8 @@
-.profileImage {
+.profileImage img{
   margin: 20px;
   border-radius: 50%;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   border: 2px solid var(--ternary-color);
 }
 
@@ -56,7 +56,7 @@ p {
 }
 
 @media (max-width: 1023px) {
-  .profileImage {
+  .profileImage img{
     width: 250px;
     height: 250px;
   }

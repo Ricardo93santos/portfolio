@@ -1,8 +1,44 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../style/Home.css";
 import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
+  useEffect(() => {
+    const profileImageContainer = document.querySelector('.profileImage');
+    const profileImagePhoto = document.getElementById('photo');
+    const profileImageCartoon = document.getElementById('cartoon');
+
+    function hideImage() {
+      if (profileImageCartoon) {
+        profileImageCartoon.style.display = "none";
+      }
+      if (profileImagePhoto) {
+        profileImagePhoto.style.display = "block";
+      }
+    }
+
+    function showImage() {
+      if (profileImageCartoon) {
+        profileImageCartoon.style.display = "block";
+      }
+      if (profileImagePhoto) {
+        profileImagePhoto.style.display = "none";
+      }
+    }
+
+    if (profileImageContainer) {
+      profileImageContainer.addEventListener('mouseenter', hideImage);
+      profileImageContainer.addEventListener('mouseleave', showImage);
+    }
+
+    return () => {
+      if (profileImageContainer) {
+        profileImageContainer.removeEventListener('mouseenter', hideImage);
+        profileImageContainer.removeEventListener('mouseleave', showImage);
+      }
+    };
+  }, []);
+
   return (
     <section className="container">
       <div className="home_text">
@@ -18,7 +54,10 @@ const Home: React.FC = () => {
           </Link>
         </div>
       </div>
-      <img className="profileImage" src="https://media.licdn.com/dms/image/v2/D4D03AQHynDl0BNBfGQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1686515034641?e=1730937600&v=beta&t=xFsr6H55cSsN2UjwDFvmqzDY8Pbjmydt1jWsDLGYvcA" alt="Foto do Perfil" />
+      <div className="profileImage">
+        <img id="photo" src="https://media.licdn.com/dms/image/v2/D4D03AQHynDl0BNBfGQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1686515034641?e=1730937600&v=beta&t=xFsr6H55cSsN2UjwDFvmqzDY8Pbjmydt1jWsDLGYvcA" alt="Foto do Perfil" style={{ display: 'none' }} />
+        <img id="cartoon" src="https://i.postimg.cc/7Pfc7Gb5/profile-cartoon.png" alt="Foto do Perfil" />
+      </div>
     </section>
   );
 }
