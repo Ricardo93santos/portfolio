@@ -6,13 +6,14 @@ main {
   height: 100vh;
   justify-content: center;
 }
+
 .container {
   align-items: center;
+  background: var(--gradient-color);
   display: flex;
   height: 100vh;
-  width: 100%;
   justify-content: center;
-  background: var(--gradient-color);
+  width: 100%;
 }
 
 @media (max-width: 600px) {
