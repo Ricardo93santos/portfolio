@@ -44,7 +44,7 @@ const ProfileImage: React.FC = () => {
 
   return (
     <div className="profileImage">
-      <img className="hiddenImage" id="photo" src="https://media.licdn.com/dms/image/v2/D4D03AQHynDl0BNBfGQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1686515034641?e=1730937600&v=beta&t=xFsr6H55cSsN2UjwDFvmqzDY8Pbjmydt1jWsDLGYvcA" alt="Foto do Perfil" />
+      <img className="hiddenImage" id="photo" src="https://i.postimg.cc/hjqN5Vy9/profile-photo.jpg" alt="Foto do Perfil" />
       <img id="cartoon" src="https://i.postimg.cc/7Pfc7Gb5/profile-cartoon.png" alt="Foto do Perfil" />
   </div>
   )
